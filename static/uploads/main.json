@@ -2,19 +2,19 @@
     "dress":[
         {
             "id": 0,
-            "Name": "Pollera panameña",
+            "Name": "Montuna Santeña",
             "Pais": "Panamá",
-            "Title": "Vestido folklórico - Pollera panameña",
-            "Poster": "https://i.pinimg.com/736x/db/6e/37/db6e37328c59fe096f851174086ab392.jpg",
+            "Title": "Pollera panameña - Montuna Santeña",
+            "Poster": "",
             "Descripcion1": "",
             "Descripcion2": ""
         },
         {
             "id": 1,
-            "Name": "Pollera panameña",
+            "Name": "",
             "Pais": "Panamá",
-            "Title": "Vestido folklórico - Pollera panameña",
-            "Poster": "https://i.pinimg.com/736x/db/6e/37/db6e37328c59fe096f851174086ab392.jpg",
+            "Title": "",
+            "Poster": "",
             "Descripcion1": "",
             "Descripcion2": ""
         }
