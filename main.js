@@ -1,0 +1,1 @@
+URL = window.URL || window.webkitURL;
