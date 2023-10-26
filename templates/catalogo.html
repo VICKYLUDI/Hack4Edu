@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Catalogo de Tradiciones
+{% endblock %}
+
+{% block content %}
+<div id="image-gallery" class="row"></div>
+
+<div id="overlay" class="overlay">
+    <div class="overlay-content">
+    <h2 id="overlay-title"></h2>
+        <div class="overlay-info">
+            <div class="overlay-image-container">
+                <img id="overlay-image" alt="Imagen">
+            </div>
+            <div class="overlay-text">
+                <p>Descripción:</p>
+                <p id="overlay-des1"></p>
+                <p id="overlay-des2"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+{% endblock %}
