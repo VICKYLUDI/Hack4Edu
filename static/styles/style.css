@@ -78,7 +78,7 @@ body {
 
 .image-wrapper img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -142,7 +142,8 @@ body {
 
 .overlay-content img {
     width: 300px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
     border-radius: 20%;
 }
 
@@ -248,4 +249,9 @@ h4.highlight-text {
     padding: 10px 20px;
     background-color: transparent;
     font-weight: 500;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border: 1px solid #ccc;
 }

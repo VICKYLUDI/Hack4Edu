@@ -5,5 +5,35 @@
 {% endblock %}
 
 {% block content %}
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card p-4">
+                    <h1 class="mb-4">RECONOCIMIENTO FOLCLÓRICO</h1>
 
+                    <form action="/guardar-imagen" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="imagen">Cargar una imagen:</label>
+                            <input type="file" name="imagen" accept="image/*" required class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Cargar e Identificar</button>
+                    </form>
+
+                    <div class="mt-4" id="resultado">
+                        <!-- Aquí se mostrará el resultado de la identificación -->
+                    </div>
+
+                    <div class="mt-4" id="imageResult">
+                        <!-- Aquí se mostrará la imagen relacionada con la identificación -->
+                        <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSarae41EWHPQNxccyPZyWK4iHQAZPsnm6ptpvgitXplQ&s" alt="Imagen relacionada" class="img-fluid">
+                        <p id="imageName"></p>
+                    </div>
+
+                    <button onclick="clearDressImageAndName()" class="btn btn-danger mt-4">Limpiar Imagen y Nombre</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</div>
 {% endblock %}

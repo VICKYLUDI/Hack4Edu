@@ -56,17 +56,20 @@ function showOverlay(name) {
     const overlay = $('#overlay');
     const overlayImage = $('#overlay-image');
     const overlayTitle = $('#overlay-title');
+    const overlayPais = $('#overlay-pais');
     const overlayDes1 = $('#overlay-des1');
     const overlayDes2 = $('#overlay-des2');
     
     const dressData = json.find(item => item.Name === name);
     const imageSrc = dressData.Poster;
     const title = dressData.Title;
+    const cty = dressData.Pais;
     const des1 = dressData.Descripcion1;
     const des2 = dressData.Descripcion2;
 
     overlayImage.attr('src', imageSrc);
     overlayTitle.text(title);
+    overlayPais.text(cty);
     overlayDes1.text(des1);
     overlayDes2.text(des2);
 

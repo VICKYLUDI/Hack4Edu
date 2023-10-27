@@ -2,21 +2,65 @@
     "dress":[
         {
             "id": 0,
-            "Name": "Pollera panameña",
-            "Pais": "Panamá",
-            "Title": "Vestido folklórico - Pollera panameña",
-            "Poster": "https://i.pinimg.com/736x/db/6e/37/db6e37328c59fe096f851174086ab392.jpg",
-            "Descripcion1": "",
-            "Descripcion2": ""
+            "Name": "Montuna Santeña",
+            "Pais": "Pais: Panamá",
+            "Title": "Vestimenta - Montuna Santeña",
+            "Poster": "../static/img/M-S-P.jpg",
+            "Descripcion1": "Es un traje típico tradicional que refleja la herencia cultural de la región de Azuero. Suele consistir en un vestido para las mujeres y camisa y pantalones para los hombres, con colores vivos y decoraciones típicas.",
+            "Descripcion2": "Esta vestimenta se usa en festividades y eventos especiales para celebrar la identidad cultural de Panamá, especialmente en la provincia de Los Santos."
         },
         {
             "id": 1,
-            "Name": "Pollera panameña",
-            "Pais": "Panamá",
-            "Title": "Vestido folklórico - Pollera panameña",
-            "Poster": "https://i.pinimg.com/736x/db/6e/37/db6e37328c59fe096f851174086ab392.jpg",
-            "Descripcion1": "",
-            "Descripcion2": ""
+            "Name": "Marimba",
+            "Pais": "Pais: Belice",
+            "Title": "Instrumento - Marimba",
+            "Poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTI_jV-zulpG7qrl4-dkXGPRdo48ACphJBlO7997vgVt93-3zL3jrL0qFfaGM5G",
+            "Descripcion1": "Es un instrumento de madera que consta de una serie de teclas de madera, dispuestas en un marco. Las teclas están conectadas a resonadores de madera que producen el sonido.",
+            "Descripcion2": "Es el instrumento principal de la música folclórica beliceña, y se utiliza en una variedad de géneros musicales, como el punta, el garífuna y el calypso."
+        },
+        {
+            "id": 2,
+            "Name": "Huipil de San Mateo Ixtatán",
+            "Pais": "Pais: Guatemala",
+            "Title": "Vestimenta - Huipil de San Mateo Ixtatán",
+            "Poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSom3I0u5wEIYkcna_E5tu2jyTF2e033pp01dpmygnTXC876hlgYDP7o8jECVd8",
+            "Descripcion1": "Es una prenda tradicional maya utilizada por las mujeres de esta comunidad guatemalteca. Suele ser una túnica larga y decorativa, con elaborados diseños geométricos y florales bordados en colores vivos.",
+            "Descripcion2": "Es una parte importante de la identidad cultural de San Mateo Ixtatán y se utiliza en ocasiones especiales y festividades locales para reflejar la herencia y tradiciones de la región."
+        },
+        {
+            "id": 3,
+            "Name": "Traje de Panchimalco",
+            "Pais": "Pais: El Salvador",
+            "Title": "Vestimenta - Traje de Panchimalco",
+            "Poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9GJxG-nY-Krlu8lsBuEfk7qoJ-aioXBIzHlLoiBmn5GCmU2BMbcGfAHCoz8dc",
+            "Descripcion1": "Es un traje tradicional que se caracteriza por su colorido y ricos bordados. Suele incluir una blusa y una falda, con la blusa a menudo decorada con motivos florales y geométricos en colores vivos.",
+            "Descripcion2": "Este traje es un símbolo importante de la identidad cultural de Panchimalco y se usa en festividades y eventos especiales para celebrar la herencia local."
+        },
+        {
+            "id": 4,
+            "Name": "Raspador",
+            "Pais": "Pais: Honduras",
+            "Title": "Instrumento - Raspador",
+            "Poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrmiNjLwsSfXSGApxMDjBqAPv1djFWhyG84aZJSeN8W1R8AWqGOPQ-yL4YwAWp",
+            "Descripcion1": "Consiste en una pieza plana, generalmente de madera, con ranuras talladas en ella. El músico raspa estas ranuras con una baqueta o palo para producir sonidos rítmicos y melodías.",
+            "Descripcion2": "El raspador es un elemento clave en la música folklórica hondureña y se utiliza en celebraciones y festividades culturales para crear ritmos y melodías tradicionales."
+        },
+        {
+            "id": 5,
+            "Name": "Ocarina",
+            "Pais": "Pais: Nicaraguas",
+            "Title": "Instrumento - Ocarina",
+            "Poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQD-dbDiWb_mZk5awJzFXWRmCP6ygtnC3dBQhdH5hGBp3OvLAGZi6rYWDeyMLRR",
+            "Descripcion1": "Es un instrumento musical de viento hecho de arcilla o cerámica. Tiene una forma similar a una pequeña flauta con agujeros para los dedos y un agujero en la parte superior para soplar.",
+            "Descripcion2": "Al tocarla, produce tonos melódicos y se ha utilizado en la música tradicional de Nicaragua durante mucho tiempo. La ocarina es apreciada por su simplicidad y sonidos dulces y se utiliza en diversas celebraciones y representaciones culturales en el país."
+        },{
+            "id": 6,
+            "Name": "El quijongo",
+            "Pais": "Pais: Costa Rica",
+            "Title": "Instrumento - El quijongo",
+            "Poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzQXHo32LsQOc4O3QxH7wPpGl6oRwwQXveJpojrCV8k0-UJEf6GR0kq-p1H8Uq",
+            "Descripcion1": "Consiste en un arco hecho de madera que se frota contra una cuerda tensa, generalmente hecha de tripas de animal. El sonido se produce al tocar la cuerda con un palo o una varilla.",
+            "Descripcion2": "Este instrumento produce un sonido distintivo y se utiliza en la música folklórica costarricense para agregar ritmo y melodía a las celebraciones y eventos culturales."
         }
     ]    
 }
